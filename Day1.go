@@ -16,7 +16,7 @@ func main() {
 		}
 		// Part 2
 		if output == -1 && !part2complete {
-			fmt.Println(pos)
+			fmt.Println(pos + 1)
 			part2complete = true
 		}
 	}
